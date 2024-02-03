@@ -1,0 +1,28 @@
+{
+  "name": "tmole",
+  "version": "1.0.0",
+  "description": "Wrapper to run Tunnelmole with npx tmole",
+  "main": "index.js",
+  "bin": {
+    "tmole": "dist/bin/tmole.js"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc -p ./",
+    "watch": "tsc -p ./ -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbie-cahill/tmole.git"
+  },
+  "keywords": [
+    "tunnelmole"
+  ],
+  "author": "Robbie Cahill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robbie-cahill/tmole/issues"
+  },
+  "homepage": "https://github.com/robbie-cahill/tmole#readme"
+}
