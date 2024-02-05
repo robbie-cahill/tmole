@@ -1,6 +1,6 @@
 {
   "name": "tmole",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper to run Tunnelmole with npx tmole",
   "main": "index.js",
   "bin": {
